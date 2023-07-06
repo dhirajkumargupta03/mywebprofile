@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url("bgdk.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        color: white;
+    }
+
+    /* .wrapper{
+        max-height: 100vh;
+        max-width: 100vh;
+    } */
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        margin-top: 23px;
+
+    }
+
+    .nav-items a {
+        margin: 0 34px;
+        font-size: 23px;
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+        transition: 1s;
+    }
+
+    .nav-items a:hover {
+        color: red;
+    }
+
+    .logo p {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .image img {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 50%;
+    }
+</style>
+
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <div id="home">
+                <div class="nav" id="nav">
+                    <div class="logo">
+                        <p>Welcome</p>
+                    </div>
+                    <div class="nav-items">
+                        <a href="#home">Home</a>
+                        <a href="#about">About me</a>
+                        <a href="#edu">Education</a>
+                        <a href="#skills">Skills</a>
+
+                        <a href="#project">Project</a>
+
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+
+                <div class="hero">
+                    <div class="hero-head">Hello, my name is</div>
+                    <div class="hero-sub">Dhiraj Kumar Gupta</div>
+                    <div class="hero-content">
+                        And I'm a <span class="role"></span>
+                    </div>
+                    <div id="btn">
+                        <a href="#about">Know More About Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="about" id="about">
+                <div class="about-heading">
+                    <div class="main-head">About Me</div>
+                </div>
+                <div class="about-details">
+                    <div class="image">
+                        <img src="dkg.JPG" id="profile">
+                    </div>
+                    <div class="about-content">
+                        <div class="about-content-details">
+                            I'm Dhiraj Kumar Gupta And I'm a <span class="role-2"></span>
+                        </div>
+                        <div class="para">
+                            <p>I am a passionate and dedicated Computer Science Engineering (CSE) student, currently
+                                focused on mastering Data
+                                Structures and Algorithms (DSA) and frontend development. With a keen interest in
+                                technology, I am constantly eager to
+                                explore and learn new advancements in the field. I strive to leverage my skills and
+                                knowledge to create innovative
+                                solutions and contribute to the ever-evolving world of technology.</p>
+                        </div>
+                        <div class="btn2">
+                            <a href="#">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="education" id="edu">
+                <div class="edu-main-head">
+                    <p>Educational Qualifications</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="college">
+                    <h1 class="headd">College</h1>
+                    <p>Indra Gandhi National open university <br>Rc Ranchi
+                        <br>(Jharkhand) <br>
+                        &#10148; Stream: BCA<br>
+                        &#10148; Passing Year: 2024<br>
+                        &#10148; CGPA: 8.5/10(till 4nd sem)
+                    </p>
+                </div>
+                <div class="inter">
+                    <h1 class="headd">Class XII</h1>
+                    <p>Gossner College,Ranchi<br>
+                        (Jharkhand) <br>
+                        &#10148; Stream: Science<br>
+                        &#10148; Passing Year: 2020<br>
+                        &#10148; Percentage: 52% </p>
+
+                </div>
+                <div class="matric">
+                    <h1 class="headd">Class X</h1>
+                    <p>
+                        Amoli Apurva High School,Mangarh<br>
+                        (Jharkhand) <br>
+                        &#10148; Passing Year: 2018<br>
+                        &#10148; Percentage: 79.8%
+                    </p>
+
+                </div>
+
+
+
+
+
+
+            </div>
+            <div class="skills" id="skills">
+                <div class="skills-head">
+                    <div class="skills-heading">My Skills</div>
+                </div>
+                <div class="skills-content">
+                    <div class="skills-about">
+                        <div class="skills-sbout-main">
+                            <h2>My creative skills & experiences.</h2> <br>
+                            <p>Hey everyone Dhiraj here!!! Enthusiastic and curious to learn new skills!! I am a
+                                computer
+                                science undergrad at IGNOU RC Ranchi.
+                                Being from a tech background I am interested in programming ( C/C++) Data Structures and
+                                competitive programming. I am
+                                also a Frontend developer. You can check out my projects at GitHub . <br></p>
+                            <h2 class="btnn">Link:- <a class="btn2" href="https://github.com/dhirajkumargupta03"
+                                    target="_blank">dhirajkumargupta03</a></h2>
+
+                        </div>
+                        <div class="skills-main">
+                            <p>⭐ Web Development <br> <br>
+                                ⭐C/C++ <br> <br>
+                                ⭐Core Java <br> <br>
+                                ⭐Data structures and algorithms</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project" id="project">
+            <div class="project-head">
+                My Projects
+            </div>
+            <div class="project-content">
+                <div class="project-card" id="p1">
+                    <div class="main-proj">
+                        <h2>Image Gallery</h2>
+                        <p>Made a visually appealing image gallery web application designed with HTML and CSS to
+                            showcase and organize multiple images.</p>
+
+
+                        <div class="btn-grp">
+                            <a href="https://github.com/Mj9135/Image-Gallery" target="_blank">
+                                <i title="GitHub Link" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://mj-gallery.netlify.app/" target="_blank">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="p2">
+                    <div class="main-proj">
+                        <h2>Landing Page</h2>
+                        <p>Made a normal Landing Page using HTML and CSS</p>
+
+
+                        <div class="btn-grp">
+                            <a href="https://github.com/Mj9135/Landing-Page" target="_blank">
+                                <i title="GitHub Link" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://mj-landing-page2.netlify.app/" target="_blank">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="project-card" id="p3">
+
+                    <div class="main-proj">
+                        <h2>Temperature Converter</h2>
+                        <p>Made a web application that converts temperatures between Celsius,Kelvin and Fahrenheit using
+                            HTML, CSS, and JavaScript.</p>
+
+
+                        <div class="btn-grp">
+                            <a href="https://github.com/Mj9135/Temperature-Converter" target="_blank">
+                                <i title="GitHub Link" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://mjgupta-temperature-converter.netlify.app/" target="_blank">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <div class="contact-heading">
+                <p>Social Media Contacts</p>
+            </div>
+            <div class="social-media">
+                <a href="https://twitter.com/mj_gupta0" target="_blank">
+                    <i title="Twitter Link" class="fa-brands fa-twitter icon"></i>
+                </a>
+                <a href="https://www.facebook.com/mrityunjaymkg" target="_blank">
+                    <i title="Facebook Link" class="fa-brands fa-facebook icon"></i>
+                </a>
+                <a href="https://instagram.com/mjgupta0?igshid=ZDc4ODBmNjlmNQ==" target="_blank">
+                    <i title="Instagram Link" class="fa-brands fa-instagram icon"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mjgupta91/" target="_blank">
+                    <i title="Linkedin Link" class="fa-brands fa-linkedin icon"></i>
+                </a>
+                <a href="https://github.com/Mj9135" target="_blank">
+                    <i title="GitHub Link" class="fa-brands fa-github icon"></i>
+                </a>
+            </div>
+            <div class="message">
+                <div class="msg-head">Message Me!</div>
+                <div class="form">
+                    <div class="name">
+                        <form class="name-form">
+                            <input type="text" class="name-msg" placeholder="Full Name">
+                            <input type="email" class="email-msg" placeholder="Email Address">
+                        </form>
+                    </div>
+                    <div class="number">
+                        <form>
+                            <input type="text" class="msg-num" placeholder="Mobile Number">
+                            <input type="text" class="email-msg" placeholder="Email Subject">
+                        </form>
+                    </div>
+                    <div class="text-area">
+                        <form>
+                            <textarea name="Text" id="text" cols="74" rows="14" placeholder="Your Message"></textarea>
+                        </form>
+                    </div>
+                    <div class="btn2" id="msg-button">Send Message</div>
+
+                </div>
+            </div>
+        </div>
+        <footer class="foot">
+            <p>&#169 Copyright 2023@Mrityunjay Portfolio</p>
+        </footer>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Student",
+                "Web Developer",
+                "UI-Developer",
+                "Competitive Programmer",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+
+        var typeData = new Typed(".role-2", {
+            strings: [
+                "Student",
+                "Web Developer",
+                "UI-Developer",
+                "Competitive Programmer",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+
+</body>
+
+</html>
